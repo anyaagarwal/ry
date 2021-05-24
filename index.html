@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="p5.min.js"></script>
+    <script src="p5.dom.min.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <script src="matter.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+</head>
+<body>
+  <script src="sketch.js"></script>
+</body>
+</html>
+
+<html>
+<head>
+<title>Date and Time.</title>
+<body onLoad='getDate()' style="text-align: center">
+    <h1>Current Date and Time:</h1>
+    
+    <h2 id="Date"></h2>
+</body>
+</html>
+
+<html>
+  <head>
+    <title>Date and Time.</title>
+    <script type="text/javascript">
+      function getDate(){
+        var cDate=new Date();
+        document.getElementById("Date").innerHTML = cDate.toString();
+      }
+    </script>
+  </head>
+<body onLoad='getDate()' style="text-align: center">
+    <h1>Current Date and Time:</h1>
+    
+    <h2 id="Date"></h2>
+</body>
+</html>
